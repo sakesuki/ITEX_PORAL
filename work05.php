@@ -38,25 +38,25 @@ if ($random02 % 3 === 0) {
 
 if ($random01 > $random02) {
     if ($count === 0 ) {
-        echo "random01 = " . $random01 . "," . "random02 = " . $random02 . "です。" . "random01の方が大きいです。2つの数字の中に3の倍数が含まれていません" ;
+        echo "random01 = " . $random01 . "<br>" . "random02 = " . $random02 . "です。<br>" . "random01の方が大きいです。<br>2つの数字の中に3の倍数が含まれていません" ;
     } else {
-        echo "random01 = " . $random01 . "," . "random02 = " . $random02 . "です。". "random01の方が大きいです。". "2つの数字の中には3の倍数が"."$count"."含まれています。";
+        echo "random01 = " . $random01 . "<br>" . "random02 = " . $random02 . "です。<br>". "random01の方が大きいです。<br>". "2つの数字の中には3の倍数が"."$count"."含まれています。";
     }
 }
 
 if($random01 < $random02) {
     if ($count === 0) {
-        echo "random01 = " . $random01 . "," . "random02 = " . $random02 . "です。" . "random02の方が大きいです。2つの数字の中に3の倍数が含まれていません";
+        echo "random01 = " . $random01 . "<br>" . "random02 = " . $random02 . "です。<br>" . "random02の方が大きいです。<br>2つの数字の中に3の倍数が含まれていません";
     } else {
-        echo "random01 = " . $random01 . "," . "random02 = " . $random02 . "です。" . "random02の方が大きいです。"."2つの数字の中には3の倍数が"."$count"."含まれています。";
+        echo "random01 = " . $random01 . "<br>" . "random02 = " . $random02 . "です。<br>" . "random02の方が大きいです。<br>"."2つの数字の中には3の倍数が"."$count"."含まれています。";
     }
 }
 
 if($random01 === $random02) {
     if ($count === 0 ) {
-        echo "random01 = " . $random01 . "," . "random02 = " . $random02 . "です。" . " 2つは同じ数です。2つの数字の中に3の倍数が含まれていません";
+        echo "random01 = " . $random01 . "<br>" . "random02 = " . $random02 . "です。<br>" . " 2つは同じ数です。<br>2つの数字の中に3の倍数が含まれていません";
     } else {
-        echo "random01 = " . $random01 . "," . "random02 = " . $random02 . "です。" . " 2つは同じ数です。2つの数字の中には3の倍数が"."$count"."含まれています。";
+        echo "random01 = " . $random01 . "<br>" . "random02 = " . $random02 . "です。<br>" . " 2つは同じ数です。<br>2つの数字の中には3の倍数が"."$count"."含まれています。";
     }
 }
 
